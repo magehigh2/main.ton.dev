@@ -19,8 +19,10 @@ Adjust (if needed) `main.ton.dev/scripts/env.sh`
 ### 2.2 Build Node
 Build a node:
 For building a node on Ubuntu 18.04 use:
+
     $ ./build_ubuntu.sh
 For building a node on CentOS 8 use:
+
     $ ./build_centos.sh
 ### 2.3 Setup Node
 Initialize a node:
