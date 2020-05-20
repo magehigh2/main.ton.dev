@@ -17,7 +17,6 @@ Adjust (if needed) `main.ton.dev/scripts/env.sh`
     $ cd main.ton.dev/scripts/
     $ . ./env.sh 
 ### 2.2 Build Node
-Build a node:
 For building a node on Ubuntu 18.04 use:
 
     $ ./build_ubuntu.sh
