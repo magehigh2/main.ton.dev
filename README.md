@@ -1,6 +1,6 @@
 # README
 
-This HOWTO contains instructions on how to build and configure a validator node in TON blockchain. The instructions and scripts below were verified on Ubuntu 18.04.
+This HOWTO contains instructions on how to build and configure a validator node in TON blockchain. The instructions and scripts below were verified on Ubuntu 18.04 and CentOS 8.
 # Getting Started
 
 ## 1. System Requirements
@@ -18,8 +18,10 @@ Adjust (if needed) `main.ton.dev/scripts/env.sh`
     $ . ./env.sh 
 ### 2.2 Build Node
 Build a node:
-
-    $ ./build.sh
+For building a node on Ubuntu 18.04 use:
+    $ ./build_ubuntu.sh
+For building a node on CentOS 8 use:
+    $ ./build_centos.sh
 ### 2.3 Setup Node
 Initialize a node:
 
